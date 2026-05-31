@@ -1,36 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Terand Daci</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-            margin-top: 50px;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CyberSafe - Cybersecurity Awareness</title>
 
-        h1 {
-            color: #2c3e50;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-        .card {
-            background: white;
-            width: 60%;
-            margin: auto;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px gray;
-        }
-    </style>
+body{
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#0d1b2a;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#1b263b;
+    text-align:center;
+    padding:10px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.hero{
+    background:#415a77;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:3em;
+    margin-bottom:15px;
+}
+
+.container{
+    width:90%;
+    max-width:1100px;
+    margin:auto;
+    padding:40px 0;
+}
+
+.section{
+    background:white;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.section h2{
+    color:#0d1b2a;
+    margin-bottom:15px;
+}
+
+ul{
+    margin-left:20px;
+}
+
+footer{
+    background:#0d1b2a;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.team{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.member{
+    background:#e9ecef;
+    padding:15px;
+    border-radius:8px;
+    width:250px;
+    text-align:center;
+}
+</style>
 </head>
+
 <body>
 
-    <div class="card">
-        <h1>Welcome to My Website</h1>
-        <p>My name is Terand Daci.</p>
-        <p>This website was created for my DNS and SSL/TLS course project.</p>
-    </div>
+<header>
+    <h1>CyberSafe</h1>
+    <p>Cybersecurity Awareness for a Safer Internet</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#threats">Threats</a>
+    <a href="#protection">Protection</a>
+    <a href="#team">Team</a>
+</nav>
+
+<section class="hero">
+    <h1>Stay Safe Online</h1>
+    <p>Learn how to protect yourself from cyber threats and secure your digital life.</p>
+</section>
+
+<div class="container">
+
+    <section id="about" class="section">
+        <h2>About Cybersecurity</h2>
+        <p>
+            Cybersecurity is the practice of protecting systems, networks,
+            and personal information from digital attacks. As our lives become
+            more connected, understanding cybersecurity becomes increasingly important.
+        </p>
+    </section>
+
+    <section id="threats" class="section">
+        <h2>Common Cyber Threats</h2>
+        <ul>
+            <li>Phishing emails and fake websites</li>
+            <li>Malware and ransomware attacks</li>
+            <li>Password theft</li>
+            <li>Identity fraud</li>
+            <li>Social engineering attacks</li>
+        </ul>
+    </section>
+
+    <section id="protection" class="section">
+        <h2>How to Protect Yourself</h2>
+        <ul>
+            <li>Use strong, unique passwords</li>
+            <li>Enable two-factor authentication (2FA)</li>
+            <li>Keep software updated</li>
+            <li>Avoid suspicious links and downloads</li>
+            <li>Use HTTPS-secured websites</li>
+        </ul>
+    </section>
+
+    <section id="team" class="section">
+        <h2>Project Team</h2>
+
+        <div class="team">
+            <div class="member">
+                <h3>Terand Daci</h3>
+                <p>Website Development</p>
+            </div>
+
+            <div class="member">
+                <h3>Student 2</h3>
+                <p>Research & Content</p>
+            </div>
+
+            <div class="member">
+                <h3>Student 3</h3>
+                <p>Design & Documentation</p>
+            </div>
+        </div>
+
+    </section>
+
+</div>
+
+<footer>
+    <p>CyberSafe © 2026 | Educational Cybersecurity Awareness Project</p>
+</footer>
 
 </body>
 </html>

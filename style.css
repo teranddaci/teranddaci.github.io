@@ -72,10 +72,23 @@ nav a:hover{
 
 .hero{
     height:80vh;
+
+    background:
+    linear-gradient(
+        rgba(11,19,32,0.75),
+        rgba(11,19,32,0.75)
+    ),
+    url("Cybersecurity-in-a-World-in-Crisis-V1-copy.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+
     text-align:center;
     padding:20px;
 }
@@ -83,11 +96,13 @@ nav a:hover{
 .hero h1{
     font-size:4rem;
     margin-bottom:20px;
+    text-shadow:0 0 15px rgba(0,0,0,0.8);
 }
 
 .hero p{
     max-width:700px;
     font-size:1.2rem;
+    text-shadow:0 0 10px rgba(0,0,0,0.8);
 }
 
 .btn{

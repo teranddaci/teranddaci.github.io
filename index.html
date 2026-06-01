@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 <meta charset="UTF-8">
-<title>CyberSafe - Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CyberSafe | Cybersecurity Awareness</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
+<div id="loader">
+    <div class="spinner"></div>
+    <h2>Loading CyberSafe...</h2>
+</div>
 
 <header>
     <h1>CyberSafe</h1>
@@ -14,37 +23,155 @@
 </header>
 
 <nav>
-    <a href="index.html">Home</a>
-    <a href="threats.html">Threats</a>
-    <a href="safety.html">Online Safety</a>
-    <a href="https.html">HTTPS</a>
-    <a href="team.html">Team</a>
+    <a href="#home">Home</a>
+    <a href="#threats">Threats</a>
+    <a href="#protection">Protection</a>
+    <a href="#https">HTTPS</a>
+    <a href="#team">Team</a>
+    <a href="#contact">Contact</a>
 </nav>
-   
-<div class="container">
 
-<div class="card">
-    <h2>Welcome to CyberSafe</h2>
+<section class="hero" id="home">
+    <h1>Stay Safe Online</h1>
+
     <p>
-        A cybersecurity awareness project created to educate users about
-        online threats, safe browsing, and HTTPS encryption.
+        CyberSafe is an educational project dedicated to raising awareness
+        about cyber threats, online safety, and secure internet practices.
     </p>
-</div>
 
-<div class="card">
-    <h2>Why Cybersecurity Matters</h2>
-    <p>
-        Millions of cyberattacks occur every year. Understanding how
-        attackers operate and learning how to protect personal information
-        helps create a safer digital world.
-    </p>
-</div>
+    <a href="#threats" class="btn">Learn More</a>
+</section>
 
-</div>
+<section>
+    <h2>Cybersecurity Statistics</h2>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h3>90%</h3>
+            <p>of cyberattacks begin with phishing.</p>
+        </div>
+
+        <div class="stat">
+            <h3>2FA</h3>
+            <p>greatly improves account security.</p>
+        </div>
+
+        <div class="stat">
+            <h3>24/7</h3>
+            <p>cyber threats target internet users.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="threats">
+    <h2>Common Threats</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎣 Phishing</h3>
+            <p>Fake emails and websites designed to steal information.</p>
+        </div>
+
+        <div class="card">
+            <h3>🦠 Malware</h3>
+            <p>Malicious software that damages systems and steals data.</p>
+        </div>
+
+        <div class="card">
+            <h3>🔒 Ransomware</h3>
+            <p>Encrypts files and demands payment for recovery.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎭 Social Engineering</h3>
+            <p>Manipulating people into revealing confidential information.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="protection">
+    <h2>Protect Yourself</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Strong Passwords</h3>
+            <p>Create unique passwords with letters, numbers and symbols.</p>
+        </div>
+
+        <div class="card">
+            <h3>Two-Factor Authentication</h3>
+            <p>Add an additional layer of protection to your accounts.</p>
+        </div>
+
+        <div class="card">
+            <h3>Updates</h3>
+            <p>Keep devices updated to patch security vulnerabilities.</p>
+        </div>
+
+        <div class="card">
+            <h3>Safe Browsing</h3>
+            <p>Avoid suspicious websites and unknown downloads.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="https">
+    <h2>HTTPS & SSL/TLS</h2>
+
+    <div class="card">
+        <p>
+            HTTPS encrypts communication between users and websites.
+            SSL/TLS certificates help ensure confidentiality, integrity,
+            and authenticity of online communications.
+        </p>
+    </div>
+</section>
+
+<section id="team">
+    <h2>Project Team</h2>
+
+    <div class="team">
+
+        <div class="member">
+            <h3>Terand Daci</h3>
+            <p>Website Development, GitHub Pages & DNS</p>
+        </div>
+
+        <div class="member">
+            <h3>Andis Shurdhi</h3>
+            <p>Cyber Threat Research</p>
+        </div>
+
+        <div class="member">
+            <h3>Biorni Alimadhi</h3>
+            <p>Online Safety & HTTPS Research</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
 
 <footer>
-    CyberSafe © 2026
+    CyberSafe © 2026 | Cybersecurity Awareness Project
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
